@@ -1,6 +1,7 @@
 body {
     font-family: "times new roman", times, serif;
     font-size: 17px;
+    line-height: 26px;
     color: #333;
 }
 
@@ -138,6 +139,8 @@ header h3 {
 
 #photo-1+figcaption {
     width: 50%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 18px;
     font-weight: 300;
@@ -147,4 +150,82 @@ header h3 {
 #photo-1+figcaption span {
     font-size: 11px;
     color: #999;
+}
+
+/* =====
+   main
+   ===== */
+
+.article {
+    padding: 0 20px 0 80px;
+    width: 50%;
+}
+
+#part-one {
+    float: left;
+}
+
+aside {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 33%;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+#recent-comments {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 900;
+    color: #2e6086;
+}
+
+article {
+    margin-bottom: 0;
+}
+
+article h2 {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 900;
+    color: #000;
+}
+
+article time {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: 15px;
+    color: #bbb;
+}
+
+aside footer {
+    display: block;
+    width: 280px;
+    padding: 5px 0;
+    border-top: 1px solid #bbb;
+}
+
+aside footer a {
+    font-size: 10px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #326891;
+}
+
+.comment-text {
+    margin-top: -10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #666;
+}
+
+#table::before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
