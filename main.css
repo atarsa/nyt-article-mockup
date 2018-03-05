@@ -362,9 +362,14 @@ aside footer a {
     color: #999;
 }
 
+/* =========
+    footer sections
+   ======== */
+
 .more-space {
     display: block;
     position: relative;
+    float: left;
     width: 60%;
     height: 490px;
     margin: 5px 0 20px 0;
@@ -435,4 +440,76 @@ aside footer a {
     line-height: 18px;
     font-weight: 100;
     color: #000;
+}
+
+/* trending */
+
+.trending {
+    display: block;
+    float: right;
+    width: 35%;
+    height: 600px;
+}
+
+.trending h3 {
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.trending img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    float: right;
+    margin-left: 10px;
+}
+
+ol {
+    counter-reset: li;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ol>li {
+    position: relative;
+    margin: 0;
+    list-style: none
+}
+
+ol>li::before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 10px;
+    /* Some space between the number and the content in browsers that support
+	   generated content but not positioning it (Camino 2 is one example) */
+    margin-right: 8px;
+    padding: 4px;
+    color: #000;
+    text-align: center;
+}
+
+.trending li {
+    width: 360px;
+    height: 50px;
+    margin: 5px 0;
+    border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+.trending a {
+    width: 300px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    margin: auto 30px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 100;
+    text-align: left;
+    color: #326891;
 }
