@@ -352,11 +352,87 @@ aside footer a {
     border: 0.5px solid #000;
 }
 
-footer {
+#issue-notice {
     width: 60%;
+    margin: 10px 40px 50px 80px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     font-size: 11px;
     line-height: 15px;
     color: #999;
+}
+
+.more-space {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 490px;
+    margin: 5px 0 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+.more-space h2 {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: 900px;
+    color: #000;
+}
+
+.more-space h2+a {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 100;
+    color: #6288a5;
+}
+
+.space-top {
+    display: block;
+    position: absolute;
+    width: 210px;
+    top: 40px;
+}
+
+#space-1 {
+    left: 0;
+}
+
+#space-2 {
+    left: 220px;
+}
+
+#space-3 {
+    right: 0;
+}
+
+.space-bottom {
+    display: block;
+    position: absolute;
+    width: 210px;
+    bottom: 0px;
+}
+
+#space-4 {
+    left: 0;
+}
+
+#space-5 {
+    left: 220px;
+}
+
+#space-6 {
+    right: 0;
+    bottom: 25px;
+}
+
+.space-top a,
+.space-bottom a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 100;
+    color: #000;
 }
