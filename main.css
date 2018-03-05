@@ -7,7 +7,7 @@ body {
 
 .container {
     margin: 120px 20px 20px 40px;
-    width: 1200px;
+    width: 1080px;
 }
 
 /* ========
@@ -19,6 +19,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #fff;
+    z-index: 2;
 }
 
 .nav-top li {
@@ -152,6 +153,102 @@ header h3 {
     color: #999;
 }
 
+.clear {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#theory {
+    border: 1px solid #e2e2e2;
+    border-right: hidden;
+    border-left: hidden;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#theory h2 {
+    margin: 10px 0 -5px 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+#theory img {
+    width: 100%;
+}
+
+#theory figcaption {
+    color: #666;
+}
+
+.img-container {
+    position: relative;
+}
+
+.shorts {
+    display: inline-block;
+    max-width: 220px;
+    text-align: justify;
+    font-weight: 100;
+    color: #000;
+}
+
+.short-top {
+    position: absolute;
+    top: 150px;
+}
+
+#short-1 {
+    left: 0;
+}
+
+#short-2 {
+    left: 260px;
+    max-width: 200px;
+}
+
+#short-3 {
+    right: 270px;
+}
+
+#short-4 {
+    right: 10px;
+}
+
+.short-bottom {
+    position: absolute;
+    bottom: 30px;
+}
+
+#short-6 {
+    bottom: 0;
+    left: 260px;
+    max-width: 200px;
+}
+
+#short-7 {
+    right: 270px;
+}
+
+#short-8 {
+    right: 10px;
+}
+
+.shorts span {
+    font-size: 11px;
+    font-weight: 900;
+}
+
+#credits {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #999;
+}
+
 /* =====
    main
    ===== */
@@ -220,12 +317,4 @@ aside footer a {
     font-size: 13px;
     line-height: 16px;
     color: #666;
-}
-
-#table::before {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
 }
