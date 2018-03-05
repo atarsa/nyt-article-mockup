@@ -318,3 +318,17 @@ aside footer a {
     line-height: 16px;
     color: #666;
 }
+
+.video {
+    margin: 40px 0 30px 20px;
+}
+
+.video figcaption {
+    font-size: 13px;
+    color: #666;
+}
+
+.video figcaption span {
+    font-size: 11px;
+    color: #999;
+}
