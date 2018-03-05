@@ -257,8 +257,9 @@ header h3 {
     ;
 }
 
-.video figcaption {
+figcaption {
     font-size: 13px;
+    line-height: 17px;
     color: #666;
 }
 
@@ -269,6 +270,13 @@ header h3 {
 
 #telescope-img {
     margin: 20px 40px 40px 0;
+    padding-right: 40px;
+    max-width: 55%;
+}
+
+#telescope-img img {
+    padding-right: 40px;
+    max-width: 630px;
 }
 
 /* =====
