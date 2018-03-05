@@ -38,9 +38,6 @@ body {
 }
 
 button {
-    /* position: relative;
-    top: 0;
-    right: -100px; */
     height: 30px;
     border: 1px solid #326891;
     border-radius: 3px;
@@ -347,4 +344,19 @@ aside footer a {
     font-size: 13px;
     line-height: 16px;
     color: #666;
+}
+
+#hr-bottom {
+    width: 60px;
+    margin-left: 0;
+    border: 0.5px solid #000;
+}
+
+footer {
+    width: 60%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
 }
