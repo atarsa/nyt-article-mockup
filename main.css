@@ -106,9 +106,43 @@ button:hover {
     margin: 5px;
 }
 
+/* =======
+   header
+   ======= */
+
+header h1 {
+    margin-right: 60px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+}
+
+header p {
+    font-size: 11px;
+    line-height: 12px;
+}
+
+header p span {
+    padding-right: 10px;
+    font-weight: 600;
+}
+
 /* ======
    Links
    ======  */
+
+header h3 a {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 900;
+    color: #000;
+}
+
+header h3 a:hover {
+    text-decoration: underline;
+}
 
 a {
     text-decoration-line: none;
