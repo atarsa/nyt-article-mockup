@@ -585,3 +585,11 @@ ol>li::before {
     list-style: none;
     color: #000;
 }
+
+.last-column h3+ul {
+    margin-left: -10px;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+    background-color: red;
+}
