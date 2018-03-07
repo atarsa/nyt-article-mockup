@@ -138,7 +138,7 @@ header h3 {
 }
 
 #photo-1+figcaption {
-    width: 50%;
+    width: 60%;
     padding-bottom: 20px;
     margin-bottom: 20px;
     font-size: 14px;
@@ -512,4 +512,76 @@ ol>li::before {
     font-weight: 100;
     text-align: left;
     color: #326891;
+}
+
+/* =============
+   site-index-nav
+   ============= */
+
+#site-index {
+    position: relative;
+}
+
+#home {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 100;
+    color: #6288a5;
+}
+
+.column {
+    display: block;
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.last-column {
+    display: block;
+    float: right;
+}
+
+#index-columns-container {
+    border-right: 1px solid #e2e2e2;
+    background-color: red;
+}
+
+.column h3,
+.last-column h3 {
+    display: block;
+    position: relative;
+    left: 0;
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #333;
+}
+
+.column li {
+    position: relative;
+    left: -40px;
+    list-style: none;
+}
+
+.column a {
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 100;
+}
+
+.subscribe-index-small {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 100;
+    text-align: left;
+    list-style: none;
+    color: #000;
 }
