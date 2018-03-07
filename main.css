@@ -116,6 +116,14 @@ a {
     color: #333;
 }
 
+.subscribe-index-small a {
+    font-weight: 100;
+}
+
+.subscribe-index-small a:hover {
+    text-decoration: underline;
+}
+
 /* ======
    header
    ====== */
@@ -582,14 +590,6 @@ ol>li::before {
     list-style: none;
 }
 
-.subscribe-index-small a {
-    font-weight: 100;
-}
-
-.subscribe-index-small a:hover {
-    text-decoration: underline;
-}
-
 .last-column h3 {
     margin-left: 40px;
 }
@@ -627,4 +627,41 @@ i {
 .subscribe-index-small:last-of-type {
     margin-top: 5px;
     padding-top: 10px 0;
+}
+
+/*  =========
+    Footer section
+    ========= */
+
+#footer-bottom {
+    display: block;
+    margin: 0;
+    border-top: 1px solid #ccc;
+    font-size: 11px;
+    line-height: 10px;
+}
+
+#footer-bottom a {
+    display: inline-block;
+    margin: 10px 3px;
+    padding-right: 5px;
+    border-right: 0.5px solid #ccc;
+    font-weight: 100;
+    color: #999;
+}
+
+#footer-bottom a:last-of-type {
+    border-right: none;
+}
+
+#footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+#footer-bottom div:first-of-type {
+    float: left;
+}
+
+#footer-bottom div:last-of-type {
+    float: right;
 }
