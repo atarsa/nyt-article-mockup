@@ -24,9 +24,10 @@ body {
 
 .nav-top li {
     margin: 0 5px;
-    padding: 5px;
+    padding: 0px 5px 5px 5px;
     display: inline-block;
     font-size: 11px;
+    line-height: 13px;
     text-transform: uppercase;
 }
 
@@ -35,6 +36,22 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 40px;
+}
+
+.top-nav-wrapper ul {
+    position: relative;
+    left: -35px;
+}
+
+#sections {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#sections img {
+    position: relative;
+    top: 3px;
 }
 
 button {
@@ -132,6 +149,10 @@ header p span {
 /* ======
    Links
    ======  */
+
+.nav-top li a {
+    font-weight: 900;
+}
 
 header h3 a {
     font-size: 13px;
