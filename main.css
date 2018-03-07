@@ -543,11 +543,9 @@ ol>li::before {
 .last-column {
     display: block;
     float: right;
-}
-
-#index-columns-container {
-    border-right: 1px solid #e2e2e2;
-    background-color: red;
+    position: relative;
+    top: -8px;
+    margin-right: 20px;
 }
 
 .column h3,
@@ -577,19 +575,56 @@ ol>li::before {
     font-weight: 100;
 }
 
-.subscribe-index-small {
+.subscribe-index-small li {
     font-size: 11px;
     line-height: 15px;
-    font-weight: 100;
     text-align: left;
     list-style: none;
-    color: #000;
+}
+
+.subscribe-index-small a {
+    font-weight: 100;
+}
+
+.subscribe-index-small a:hover {
+    text-decoration: underline;
+}
+
+.last-column h3 {
+    margin-left: 40px;
 }
 
 .last-column h3+ul {
-    margin-left: -10px;
+    text-align: left;
     font-size: 16px;
     line-height: 20px;
     list-style: none;
-    background-color: red;
+}
+
+.last-column img {
+    margin: 5px 6px 0 0;
+    width: 14px;
+}
+
+i {
+    margin: 5px 5px 0 0;
+}
+
+.column+hr {
+    transform: rotate(90deg);
+    position: relative;
+    top: 140px;
+    right: 80px;
+}
+
+.subscribe-index-small+hr {
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 0.5px solid #ccc;
+}
+
+.subscribe-index-small:last-of-type {
+    margin-top: 5px;
+    padding-top: 10px 0;
 }
